@@ -1,4 +1,4 @@
-# uk.org.sixtyeightonine.xroar
+# uk.org._6809.xroar
 flatpak build of XRoar, a Dragon and Tandy 8-bit computer emulator.
 
 **NOTE:** This package does not come with the roms necessary to run the emulated machines. It is up to the end user to source the rom images.

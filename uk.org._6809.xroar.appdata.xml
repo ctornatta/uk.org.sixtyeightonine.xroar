@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>uk.org.sixtyeightonine.xroar</id>
-  <launchable type="desktop-id">uk.org.sixtyeightonine.xroar.desktop</launchable>
+  <id>uk.org._6809.xroar</id>
+  <launchable type="desktop-id">uk.org._6809.xroar.desktop</launchable>
   <name>XRoar</name>
   <summary>Dragon 32/64 and Tandy TRS-80 Color Computer Emulator</summary>
   <developer_name>Ciaran Anscomb</developer_name>

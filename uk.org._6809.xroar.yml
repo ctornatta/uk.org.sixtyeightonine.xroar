@@ -1,4 +1,4 @@
-app-id: uk.org.sixtyeightonine.xroar
+app-id: uk.org._6809.xroar
 command: xroar
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
@@ -25,11 +25,11 @@ modules:
     build-commands:
       - install -D -m644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.appdata.xml
       - install -D -m644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}*.desktop
-      - install -D -m644 ${FLATPAK_ID}-256.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}-256.png
+      - install -D -m644 ${FLATPAK_ID}.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
     sources:
       - type: file
-        path: uk.org.sixtyeightonine.xroar.appdata.xml
+        path: uk.org._6809.xroar.appdata.xml
       - type: file
-        path: uk.org.sixtyeightonine.xroar-256.png
+        path: uk.org._6809.xroar.png
       - type: file
-        path: uk.org.sixtyeightonine.xroar.desktop
+        path: uk.org._6809.xroar.desktop
