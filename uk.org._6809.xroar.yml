@@ -5,6 +5,7 @@ runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --device=dri
+  - --device=input
   - --filesystem=home
   - --share=ipc
   - --socket=pulseaudio
